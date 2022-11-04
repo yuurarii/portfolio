@@ -1889,3 +1889,38 @@ section {
     padding: 2px 0;
   }
 }
+
+
+
+/*JLPT N4 Prep Tests Table*/
+.intro {
+  height: 100%;
+}
+
+table td,
+table th {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  font-size: 0.8rem;
+}
+
+thead th {
+  color: #fff;
+}
+
+.card {
+  border-radius: .3rem;
+}
+
+.table-scroll {
+  border-radius: .3rem;
+}
+
+.table-scroll table thead th {
+  font-size: 0.8rem;
+}
+thead {
+  top: 0;
+  position: sticky;
+}
